@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Teamwork';
+  isLoggedIn = false;
+  username: string;
+
+  logout() {
+    //this.tokenStorageService.signOut();
+  }
 }
